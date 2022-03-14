@@ -36,9 +36,9 @@ class Blackhole implements Storage
     }
 
     /** @return array<mixed>|null */
-    public function next(): ?array
+    public function next(): void
     {
-        return null;
+        return;
     }
 
     public function rewind(): void
